@@ -22,8 +22,10 @@ public class Ordenamiento {
         }//FIN IF si el numero actual es mayor al numero siguiente
      }//FIN FOR QUE ORDENA DATOS
  }//FIN FOR VERIFICAR VECEES QUE TIENE QUE RECORRER EL VECTOR
- //fin metodo burbuja  
+ //fin metodo burbuja
+        System.out.println("/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*");
         System.out.println("METODO BURBUJA ");
+        System.out.println("/*//*/*/*/*/*/*/*/*/*/*/*/*/*/*");
  for(int i=0;i<25;i++){ //inicio for para crear numeros random
     System.out.println("Datos del Arreglo: "+n[i]);//muestra los numeros que contiene el vector
    }//fin for para crear numeros random
