@@ -1,18 +1,12 @@
 package ordenamiento;
-
 import java.util.Random;
 import java.util.Scanner;
-
-
 public class Ordenamiento {
-
     public static void main(String[] args) {
         Scanner var = new Scanner(System.in);//para ingresar datos con el teclado
         Random nr=new Random();//generador de numeros random
          int [] n= new int[25];//se inicializa el vector
          int numero,aux;//variable en donde se almacenan los datos
-         
-         
    for(int i=0;i<25;i++){ //inicio for para crear numeros random
    numero=100+nr.nextInt(25); //indica de que rango seran nuestros numeros random
    n[i]=numero;//se guarda el dato en una parte del vector
@@ -28,15 +22,10 @@ public class Ordenamiento {
         }//FIN IF si el numero actual es mayor al numero siguiente
      }//FIN FOR QUE ORDENA DATOS
  }//FIN FOR VERIFICAR VECEES QUE TIENE QUE RECORRER EL VECTOR
- //fin metodo burbuja
-        
+ //fin metodo burbuja  
         System.out.println("METODO BURBUJA ");
  for(int i=0;i<25;i++){ //inicio for para crear numeros random
-    System.out.print("Datos del Arreglo: "+n[i]);//muestra los numeros que contiene el vector
+    System.out.println("Datos del Arreglo: "+n[i]);//muestra los numeros que contiene el vector
    }//fin for para crear numeros random
-    }
-    
-    
-    
-    
+    }    
 }
