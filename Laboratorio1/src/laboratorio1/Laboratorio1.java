@@ -11,6 +11,7 @@ public class Laboratorio1 {
     public static void menu(){//inicio funcion menu
        int op;//declaracion de variable entera para uso en switch
      Scanner var = new Scanner(System.in);//para poder ingresar datos desde el teclado
+        //la opcion de funciones no se muestra en el menu para que el usuario la seleccione ya que el menu trabaja con funciones//
         System.out.println("*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");//muestra texto en pantalla
         System.out.println("\n\n ***SELECCIONE SE SU OPCION*** ");//muestra texto en pantalla
         System.out.println("¿Que es IDE?....................1");//muestra texto en pantalla
@@ -93,12 +94,12 @@ public class Laboratorio1 {
    public static void arreglos(){
    Scanner var = new Scanner(System.in);
    int i=0;
-   int [] a = new int[20];
+   int [] a = new int[10];
    for( i=0;i<10;i++){
-    System.out.println("Ingrese datos para el vector "+i+" : ");
+    System.out.println("Ingrese datos para la posicion del vector "+i+" : ");
     a[i]=var.nextInt();
    }
-       System.out.println("Los Datos en el Vector son");
+       System.out.println("Los Datos almacenados en el Vector son");
           for( i=0;i<10;i++){
     System.out.println("Dato "+i+" : " +a[i]);
    }
